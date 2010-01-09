@@ -175,6 +175,16 @@ ul.posts {
 .read-more-link a { 
   color: #a00;
 }
+
+.post-body a, .post-body a:visited {
+  color:#797979;
+  text-decoration: none;
+}
+
+.post-body a:hover {
+  color:#303030;
+  text-decoration: none;
+}
   /* standard */
 
   #post pre {
