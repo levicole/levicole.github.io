@@ -14,10 +14,10 @@ title: Levi Cole Kennedy
           {{ post.date | date_to_string }}
         </em>
         <div class="post-body">
-          {{ post.content | truncatewords: 50 }}
-        </div>
-        <div class="read-more-link">
-          <a href="{{ post.url }}">read more</a>
+          {{ post.content | truncatewords: 60 }}
+          <span class="read-more-link">
+            (<a href="{{ post.url }}" class="red">read more</a>)
+          </span>
         </div>
       </div>
     {% endfor %}

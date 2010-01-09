@@ -166,16 +166,19 @@ ul.posts {
   margin-bottom:20px;
 }
 
-.read-more-link { 
+.post-body .read-more-link { 
   width:80px;
   margin-top:20px;
   margin-bottom:20px;
   color: #a00;
 }
-.read-more-link a { 
+.post-body .read-more-link a.red {
   color: #a00;
 }
 
+.post-body .read-more-link a.red:hover {
+  color:black;  
+}
 .post-body a, .post-body a:visited {
   color:#797979;
   text-decoration: none;
