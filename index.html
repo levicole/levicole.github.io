@@ -1,2 +1,25 @@
-LOOK AT ME!!!
+---
+layout: default
+title: Levi Cole Kennedy
+---
 
+<div id="home">
+  <div id="posts">
+    {% for post in site.posts %}
+      <div class="post">
+        <h2 class="post-title">
+          {{ post.title }}  
+        </h2>
+        <em class="post-date">
+          {{ post.date | date_to_string }}
+        </em>
+        <div class="post-body">
+          {{ post.content | truncatewords: 50 }}
+        </div>
+        <div class="read-more-link">
+          <a href="{{ post.url }}">read more</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

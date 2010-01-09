@@ -1,0 +1,6 @@
+---
+layout: post 
+title: Finally!  It's a blog!
+---
+
+So I finally took it upon myself to set up Github Pages and a jekyll blog.  So far so good, the only thing I don't like is that I have to do the templates in HTML.  I have been spoiled by haml the last year. It's just so clean.  Anyway, this is still pretty bare bones right now, and I am using Tom Preston-Warners layout (but slightly modified).
