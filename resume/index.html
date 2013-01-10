@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+### Test
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+<script>
+$(function(){
+  $(document).keypress(function(e){
+    console.log(e);
+    var $div = $("#test");
+    var html = $div.html() + String.fromCharCode(e.keyCode);
+    $div.html(html);
+  });
+});
+</script>
+<div id="test" style="border: 1px solid #000; width: 400px; height: 200px;">
+</div>
