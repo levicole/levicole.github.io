@@ -1,4 +1,12 @@
 ---
 layout: default
 ---
-# test
+
+{% for post in site.posts limit: 15 %}
+<article>
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p>
+    {{ post.content }}
+  </p>
+</article
+{% endfor %}
